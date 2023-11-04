@@ -5,7 +5,7 @@ import { AppBar, Box,  CssBaseline,  IconButton, Theme, ThemeProvider, Toolbar, 
 import SettingsIcon from '@mui/icons-material/Settings';
 import Link from "next/link"
 import { useState } from 'react';
-import { FxTheme, FxThemeContext, fxThemeOptions } from '@/theme/FxTheme';
+import { FxTheme, FxThemeContext, fxThemeOptions } from '@/fx/theme/FxTheme';
 
 const theme = createTheme(
   {palette: fxThemeOptions[0].palette}
