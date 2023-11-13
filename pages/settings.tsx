@@ -4,9 +4,9 @@ import { Box, Button,  Stack,  ToggleButton,  ToggleButtonGroup,  Typography, cr
 import DarkModeIcon from "@mui/icons-material/DarkMode"
 import LightModeIcon from "@mui/icons-material/LightMode"
 
-import { FxThemeContext, FxThemeOptions, fxThemeOptions } from "@/theme/FxTheme"
+import { FxThemeContext, FxThemeOptions, fxThemeOptions } from "@/fx/theme/FxTheme"
 
-import InfoPageLayout from "@/ui/InfoPageLayout"
+import InfoPageLayout from "@/fx/ui/InfoPageLayout"
 
 const SettingsPage = () => {
  
